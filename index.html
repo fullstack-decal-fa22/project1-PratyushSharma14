@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Pratyush Sharma Website</title>
+        <author>Pratyush Sharma</author>
+    </head>
+    <body>
+        <h1>Welcome to Pratyush Website</h1>
+        <h2>About Section</h2>
+        <div class="about"> 
+            <h3> My name is Pratyush Sharma, </h3>
+            <h3 id="different-color">I am a student majoring in Computer Science at the <em>University of California Berkeley</em></h3>
+            <img src="./photo.jpeg" height=150px width=150px/>
+        </div>
+        <h4> What I bring to the table is profieiency in Python and Java, as well as having a strong work ethic when it comes to buidling projects</h4>
+        <br>
+        <br>
+        <h2>Work Section</h2>
+        <p>Here are github links to my work as well as a description:</p>
+        <p> (Links dont work as github repo been set to private due to 61A policy, but the linkedin link works which fulfills link requirement for project</p>
+
+        <a href="https://github.com/PratyushSharma14/PythonProjects/tree/master/Ants%20vs.%20Bees" target="_blank">Link to Ants vs Bees</a>
+        <p>Description: Built a game where bees dodge attacks by various types of ants. Used object-oriented concepts and arrays. Implemented core logic for handling ants with different roles and functionalities.</p>
+        <br>
+        <a href="https://github.com/PratyushSharma14/PythonProjects/tree/master/Dice%20Game%20Simulator" target="_blank">Hogs Dice Game</a>
+        <p>Description: Built simulator for dice game Hog, with randomint to simulate randomness and np.seed to standardize dice roll. Developed scoring system that keeps track of high score of user. Implemented minimax algorithm to simulate computer user and determine decisions.</p>
+        <br>
+        <a href="https://github.com/PratyushSharma14/PythonProjects/tree/master/Typing%20Game" target="_blank">Hogs Dice Game</a>
+        <p>Description: Built program that computes typing accuracy, by detecting match between user input and a displayed sentence. Additionally computes typing speed in words per minute, keeps track of passing time datetime library. Generated random sentences to display on the screen, based on user-input keywords, finds sentence from database..</p>
+        <br>
+        <h4>Grid to show timeline of projects</h4>
+        <div class="grid">
+            <div class="item">Project 1: January to February 2021</div>
+            <div class="item">Project 2: March to April 2021</div>
+            <div class="item">Project 3: April to May 2021</div>
+        </div>
+        <h2>Contact Section</h2>
+        <a href="https://www.linkedin.com/in/pratyushs/" target="_blank" id="link"> Here's my Linkedin! </a>
+        <br>
+        <br>
+        <button onclick='alert("Thank you for visiting Pratyush website")'>Click here for thank you message for reading my website</button> 
+        <br>
+        <p> Fill out form to show you visited website</p>
+        <form onsubmit="trigger()">
+            Enter name: <input type="text">
+            <p>Choose Favorite Color: </p>
+            <input type="color" id="html" />
+            <label for="html">HTML</label>
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+        <script>
+            function trigger() {
+              alert("Form has been submitted!");
+            }
+        </script>
+    </body>
+</html>
